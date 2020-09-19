@@ -1,0 +1,139 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  color: white
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: black;
+  width: auto;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  width: 750px;
+  margin: 0 auto;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_item {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 300;
+  list-style: none;
+  margin: 15px 3rem
+}
+
+.nav a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.head_container {
+  position: relative;
+  text-align: center;
+  /* color: white; */
+}
+
+.your_life {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 3rem;
+  border-radius: 2px;
+}
+
+.button:hover {
+  opacity: 0.8
+}
+
+.socials {
+  margin-top: 10rem;
+}
+
+.socials li {
+  display: inline;
+  margin: 10px 20px;
+}
+
+.socials li:hover{
+  opacity: 0.8;
+}
+
+.present {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem auto;
+}
+
+.present_text {
+  color: black;
+  width: 30rem;
+  margin: auto 5rem;
+}
+
+.community {
+  background-color: rgb(247, 234, 234);
+}
+
+.community_text{
+  text-align: center;
+  width: 25rem;
+  color: black;  
+  margin: 5rem auto;
+}
+
+.span_container {
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+}
+
+input[type=email] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: white;
+  /* background-image: url('searchicon.png'); */
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin-top: 10px;
+}

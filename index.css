@@ -13,8 +13,12 @@ body {
 
 a {
   text-decoration: none;
+  color: white
 }
 
+ul {
+  list-style-type: none;
+}
 .header {
   background-color: black;
   width: auto;
@@ -77,6 +81,33 @@ a:hover {
   border-radius: 2px;
 }
 
+.download_btn {
+  background-color: blue;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 26px;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 10px 20px;
+}
+
+.download_icon {
+  background-color: green;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 26px;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 12px 20px;
+  margin-left: 0px;
+}
+.download_btn:hover {
+  opacity: 0.8;
+}
 .button:hover {
   opacity: 0.8
 }
@@ -131,9 +162,27 @@ input[type=email] {
   border-radius: 2px;
   font-size: 16px;
   background-color: white;
-  /* background-image: url('searchicon.png'); */
   background-position: 10px 10px; 
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
   margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer ul {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_li {
+  margin: auto 20px;
 }
